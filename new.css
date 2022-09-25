@@ -1,0 +1,132 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color:  #097770;
+  font-family: 'Time New Roman';
+}
+#addTaskBtn[type="submit"]:hover {
+background-color:  #097770;
+color: white;
+border: 2px solid white;
+font-weight: 900;
+}
+.lolol{
+  text-decoration: line-through;
+  font-weight: 900;
+  color: #097770;
+}
+#addTaskBtn{
+  color: #097770;
+  font-weight: 900;
+  width: 110px;
+  height: 45px;
+  border-radius: 3px;
+  border-style: none;
+
+}
+.main_bloc{
+  width: 100%;
+  height: 132.5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0416667);
+border-radius: 3px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.checkbox{
+  padding: 12px;
+}
+.main_text{
+font-style: normal;
+font-weight: 900;
+line-height: 16px;
+text-align: justify;
+position: absolute;
+left: 35px;
+}
+.all_content{
+  display: flex;
+  justify-content: space-between;
+
+  
+  width: 100%;
+}
+  .main_text1{
+  margin-top: 12px;
+  margin-right: 8px;
+
+
+}
+.main_text{
+  margin-left: 5px;
+  margin-top: 18px;
+}
+.input,.main_text3{
+  margin-left: 15px;
+}
+
+.all_content2{
+  display: flex;
+    justify-content: space-between;
+
+}
+#putstyle1{
+  margin-top: 50px;
+  font-size: 25px;
+   text-align: center;
+   opacity: 0.6;
+}
+input#taskInput.text-center,
+input#taskInput1.text-center,
+textarea#taskArea.text-center{
+  outline-color: #edca82;
+  width: 100%;
+  height: 50px;
+
+}
+textarea#taskArea.text-center{
+  height: 70px;
+}
+#picture{
+  color: darkred;
+  cursor: pointer;
+  margin-top: -3px;
+  border: none;
+  border-style: none;
+  background-color: white;
+}
+.main_text2{
+  text-align: center;
+}
+.all_content1{
+  margin-top: -10px;
+  width: 100%;
+  height: 50px;
+  overflow:auto ;
+}
+input.edit, .main_text3{
+  margin-left:8px;
+}
+@media screen and (max-width: 768px){
+  *{
+    box-sizing: border-box;
+  }
+  .main_bloc{
+    width: 100%;
+    height: 132.5px;
+  }
+#putstyle{
+  font-size: 30px;
+  font-weight: 900;
+  font-family: 'Time New Roman';
+}
+#putstyle1{
+  font-size: 15px;
+}
+  
+}
+
+
+
