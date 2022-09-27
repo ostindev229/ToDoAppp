@@ -7,10 +7,17 @@ body{
   font-family: 'Time New Roman';
 }
 #addTaskBtn[type="submit"]:hover {
-background-color:  #097770;
-color: white;
-border: 2px solid white;
-font-weight: 900;
+animation-name: background-color;
+animation-duration: 2200ms;
+animation-fill-mode: forwards;
+}
+@keyframes background-color{
+  100%{
+    background-color: #097770;
+    border: 2px white solid;
+    color: white;
+    font-weight: 900;
+  }
 }
 .lolol{
   text-decoration: line-through;
