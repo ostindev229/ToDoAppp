@@ -5,9 +5,9 @@ const addTaskBtn = document.getElementById('addTaskBtn');
 const taskList = document.getElementById('taskList');
 let taskCount = 0;
 
-// Listen for a click on the Add Task button, call addTask()
+// Ecouté l'évenement click puis faire appel à la fonction addTask
 addTaskBtn.addEventListener('click', addTask);
-// Logic to add another task
+// Fonction addTask
 function addTask(){
 	let taskDescriptions = taskAreaField.value;
 	let taskName = taskInputField.value;
